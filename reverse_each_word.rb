@@ -1,3 +1,4 @@
+require "pry"
 def reverse_each_word(sentence)
   string_to_array= sentence.split
   filling_string=" "
@@ -5,4 +6,5 @@ def reverse_each_word(sentence)
     filling_string << "#{element.reverse}"
   end
   return filling_string
+  binding.pry
 end
