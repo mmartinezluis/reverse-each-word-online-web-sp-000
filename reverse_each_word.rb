@@ -4,5 +4,4 @@ def reverse_each_word(sentence)
   filling_array= string_to_array.collect {|element| element.reverse}
   filling_string= filling_array.join(" ")
   return filling_string
-
 end
